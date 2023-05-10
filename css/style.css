@@ -1,0 +1,43 @@
+body {
+    background-color: #262626 !important;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#seccion1, #seccion2, #seccion3 {
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+}
+
+section {
+    width: 100%;
+    max-width: 800px; /* Establece un ancho máximo para las secciones */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Establece un ancho máximo para las imágenes */
+    height: auto; /* Ajusta la altura de las imágenes automáticamente */
+    display: block; /* Elimina el espacio en blanco debajo de las imágenes */
+    margin: 0 auto;
+}
